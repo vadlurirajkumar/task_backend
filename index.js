@@ -23,7 +23,7 @@ app.use(express.json())
 app.use(cors());
 
 // admin& user routes
-app.use("/api", projectRouter) // user route calling
+app.use("/api", projectRouter) //  routes calling
 
 // Port 
 app.listen(port, ()=>{
